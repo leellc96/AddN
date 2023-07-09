@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
             }
             //             -1      -1      -1      -1
             // sum = 1 + (2-3) + (4-5) + (6-7) + (8-9) + 10 - ..........
-            if (N % 2 == 0) {//N為偶數 sum = 1 + N + (N - 2) / 2 = 2 + N/2
+            if (N % 2 == 0) {//N為偶數 sum = 1 + N - (N - 2) / 2 = 2 + N/2
                 sum = 2 + N / 2
             } else {//N為奇數
                 sum = 1 - (N - 1) / 2
